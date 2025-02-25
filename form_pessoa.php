@@ -11,7 +11,7 @@
 
     <h3> FORMULÁRIO PARA CADASTRO DE PESSOA </h3>
     
-    <form name="formPessoa" method="post" action=action_pessoa.php>
+    <form name="formPessoa" method="post" action="action_pessoa.php">
     
     <label for="nomePessoa">Nome:</label><br>
     <input name="nomePessoa" type="text"><br><br>
@@ -25,6 +25,7 @@
         <option value="imbau">Imbaú</option>
         <option value="curiuva">Curiúva</option>
         <option value="ortigueira">Ortigueira</option>
+        <option value=>SELECIONE UMA CIDADE</option>
 
     </select>
     <br><br>
